@@ -1,16 +1,19 @@
-# Cartão de aniversário — Verônica
+# Cartão de Aniversário — Verônica
 
 Projeto estático e leve para publicação no GitHub Pages.
 
-## Recursos
+## Atualizações
 
-- Três cartões em sequência circular
-- Setas de navegação
-- Teclas esquerda/direita
-- Deslizar no celular
-- Música em loop após o primeiro toque
-- Layout responsivo
+- favicon personalizado;
+- rolagem vertical invisível;
+- correção de corte em celulares;
+- compatibilidade com `100dvh` e áreas seguras;
+- botões menores no mobile;
+- retorno automático ao topo ao mudar de cartão;
+- imagens completas no desktop e roláveis no celular.
 
 ## Publicação
 
-Envie todos os arquivos e pastas para um repositório no GitHub. Depois acesse **Settings > Pages**, selecione **Deploy from a branch**, escolha a branch `main` e a pasta `/root`.
+Envie todos os arquivos para a raiz do repositório e mantenha o GitHub Pages configurado em:
+
+`Settings > Pages > Deploy from a branch > main > / (root)`
