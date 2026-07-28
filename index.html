@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#eadcf0">
+  <title>Feliz Aniversário, Verônica!</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="viewer" aria-label="Cartões de aniversário">
+    <section class="slide active" aria-hidden="false">
+      <img src="img/card1.png" alt="Primeiro cartão de aniversário para Verônica">
+    </section>
+    <section class="slide" aria-hidden="true">
+      <img src="img/card2.png" alt="Segundo cartão de aniversário para Verônica">
+    </section>
+    <section class="slide" aria-hidden="true">
+      <img src="img/card3.png" alt="Terceiro cartão de aniversário para Verônica">
+    </section>
+
+    <button class="nav prev" type="button" aria-label="Cartão anterior">&#10094;</button>
+    <button class="nav next" type="button" aria-label="Próximo cartão">&#10095;</button>
+
+    <div class="dots" aria-label="Indicador de páginas">
+      <button class="dot active" type="button" aria-label="Ir para o cartão 1"></button>
+      <button class="dot" type="button" aria-label="Ir para o cartão 2"></button>
+      <button class="dot" type="button" aria-label="Ir para o cartão 3"></button>
+    </div>
+
+    <button class="sound" type="button" aria-label="Ativar ou desativar música">🔊</button>
+  </main>
+
+  <div class="start" role="dialog" aria-modal="true" aria-label="Iniciar apresentação">
+    <button class="start-button" type="button">
+      <span class="music-icon">♪</span>
+      <strong>Toque para começar</strong>
+      <small>e ouvir a música</small>
+    </button>
+  </div>
+
+  <audio id="music" preload="metadata" loop>
+    <source src="audio/DeusDeDetalhes.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
